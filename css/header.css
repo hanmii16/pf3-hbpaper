@@ -1,10 +1,9 @@
 header {
   position: fixed;
   width: 100%;
-  background-color: rgba(0,0,0,0.7);
   z-index: 1;
 }
-header::after {
+/* header::after {
   content: "";
   border: 50px solid rgba(123, 118, 118, 0.7);
   width: 0px;
@@ -18,7 +17,7 @@ header::after {
   position: absolute;
   border-top-width: 30px;
   
-}
+} */
 header .wrap {
   height: 100px;
   align-items: center;
