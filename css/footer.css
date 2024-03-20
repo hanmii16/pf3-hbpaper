@@ -1,14 +1,11 @@
 footer {
   background-color: #222222;
-  padding-bottom: 60px;
+  padding: 50px 0;
+  position: relative;
 }
 footer .wrap {
   display: flex;
   flex-wrap: wrap;
-  position: relative;
-  max-width: 100%;
-  padding: 0 calc((100% - 1520px) / 2);
-  padding-bottom: 50px;
 }
 footer .wrap h1 {
 
@@ -23,7 +20,7 @@ footer .wrap ul.pnb li {
 footer .wrap ul.pnb li a,footer .wrap div ul.fnb li a {
   color: #fff;
   display: block;
-  line-height: 3;
+  font-weight: bold;
 }
 footer .wrap ul.pnb li:first-child a{
   padding-right: 15px;
@@ -62,17 +59,15 @@ footer .wrap a.blog {
   background-image: url(../img/blog_btn.png);
 }
 footer .wrap address {
-  width: 100%;
   color: #ccc;
 }
 footer .wrap address::before{
 content: "";  
-width: 100vw;
 display: block;
 border-top: 1px solid #ccc;
-margin-left: calc((1920px - 1520px) / -2);
-margin-bottom: 20px;
+margin-bottom: 25px;
 
+left: 0;
 }
 footer .wrap  p {
 

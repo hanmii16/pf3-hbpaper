@@ -3,6 +3,9 @@ header {
   width: 100%;
   z-index: 1;
 }
+header:hover{
+  
+}
 /* header::after {
   content: "";
   border: 50px solid rgba(123, 118, 118, 0.7);
@@ -47,7 +50,12 @@ header .wrap ul.gnb li a {
   padding: 0 50px;
   font-size: 18px;
   color: white;
-  transition: 0.5s;
+  border-bottom: 1px solid transparent;
+  /*! transition: width .3s; */
+}
+header .wrap ul.gnb li a:hover{
+  border-bottom: 2px solid black;
+  color: black;
 }
 header .wrap .sublist {
   background-color: white;
@@ -57,9 +65,9 @@ header .wrap .sublist {
   width: 100%;
   display: grid;
   grid-template-columns: calc((100% - 1520px) / 2) calc(1520px * 0.3) 162px 162px 162px 162px 1fr calc((100% - 1520px) / 2);
-  transition: 0.5s;
-  display: none;
+  display: grid;
 }
+
 header .wrap .sublist div {
   
 }
@@ -86,6 +94,7 @@ header .wrap .sublist div ul.useguide li {
 }
 header .wrap .sublist div ul.useguide li a {
   transition: 0.5s;
+  line-height: 2;
 }
 header .wrap span.lang {
   
