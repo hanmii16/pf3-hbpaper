@@ -136,6 +136,7 @@ body{
   height: 100vh;
   box-sizing: border-box;
   min-height: 800px;
+  position: relative;
 }
 .h100{
   height: 100%;

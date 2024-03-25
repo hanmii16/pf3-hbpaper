@@ -163,8 +163,9 @@ section#products .wrap article .text{
 section#products .wrap .slick-dots{ 
   position: absolute;
   bottom: 60px;
-  left: -432px;
+  left: -336px;
 }
+
 section#products .slick-dots li{  
   width: 80px;
 }
@@ -177,6 +178,22 @@ section#products .wrap .slick-dots li button::before{
 }
 section#products .wrap .slick-dots li:nth-child(1) button::after{
 
+}
+section#products .wrap span{
+  
+  display: inline-block;
+  position: absolute;
+  right: 200px;
+  bottom: 300px;
+  animation: circle_motion 20s linear 0s infinite normal;
+}
+@keyframes circle_motion {
+    0% { transform: rotate(0deg); } /* Ban đầu, hình ảnh không được quay */
+    100% { transform: rotate(360deg); } /* Khi hoàn thành, hình ảnh quay một vòng tròn đầy */
+}
+
+section#products .wrap span img{
+  
 }
 /*NEWS*/
 /* section#news{

@@ -5,7 +5,9 @@ header {
 }
 header:hover{
   
+  background-color: white;
 }
+
 /* header::after {
   content: "";
   border: 50px solid rgba(123, 118, 118, 0.7);
@@ -56,6 +58,7 @@ header .wrap ul.gnb li a {
 header .wrap ul.gnb li a:hover{
   border-bottom: 2px solid black;
   color: black;
+  z-index: 1;
 }
 header .wrap .sublist {
   background-color: white;

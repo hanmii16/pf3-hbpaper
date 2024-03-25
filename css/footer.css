@@ -1,18 +1,18 @@
 footer {
   background-color: #222222;
-  padding: 50px 0;
   position: relative;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 footer .wrap {
-  display: flex;
-  flex-wrap: wrap;
 }
 footer .wrap h1 {
 
 }
 
-footer .wrap ul.pnb {
-  width: 60%;
+footer .wrap .flex ul.pnb {
+  width: 64%;
+  display: flex;
 }
 footer .wrap ul.pnb li {
   
@@ -28,13 +28,13 @@ footer .wrap ul.pnb li:first-child a{
 footer .wrap ul.pnb li:not(:first-child) a{
   padding: 0 15px;
 }
-footer .wrap div{
-  width: 40%;
-  justify-content: end;
+footer .wrap .flex{
   align-items: center;
 }
-footer .wrap div ul.fnb{
+footer .wrap .flex ul.fnb{
 
+  display: initial;
+  display: flex;
 }
 footer .wrap div ul.fnb li{
   
@@ -42,34 +42,41 @@ footer .wrap div ul.fnb li{
 footer .wrap div ul.fnb li a{
   padding: 0 15px;
 }
-footer .wrap div select{
+footer .wrap .flex select{
 
   height: 30px;
+  background-color: #555;
+  width: 10%;
+  color: #fff;
 }
 footer .wrap div select option{
 
 }
-footer .wrap a.blog {
+footer .wrap .bottom a.blog {
   position: absolute;
-  right: calc((100% - 1520px) / 2);
-  top: 75px;
+  right: calc((100% - 1514px) / 2);
+  top: 105px;
   font-size: 0;
   width: 41px;
   height: 41px;
   background-image: url(../img/blog_btn.png);
 }
-footer .wrap address {
-  color: #ccc;
+footer .wrap .bottom address {
+  color: #777;
 }
-footer .wrap address::before{
+footer .wrap .bottom address::before{
 content: "";  
 display: block;
-border-top: 1px solid #ccc;
+border-top: 1px solid #777;
 margin-bottom: 25px;
 
-left: 0;
+margin-top: 25px;
+width: 100%;
 }
 footer .wrap  p {
 
-  color: #ccc;
+  color: #777;
+}
+footer .wrap .bottom{
+  
 }
